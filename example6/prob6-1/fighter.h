@@ -5,7 +5,7 @@
 
 class Fighter : public Airplane {
     public:
-        virtual void fly();
+        void fly();
         void fight();
 };
 
